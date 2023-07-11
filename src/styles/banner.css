@@ -1,0 +1,41 @@
+.the-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.header__logo {
+  width: 210px;
+  height: 68px;
+}
+
+.navigation {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20%;
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.active {
+  border-bottom: 2px solid #ff6060;
+}
+
+@media all and (max-width: 480px) {
+  .the-header {
+    margin-top: 10px;
+  }
+
+  .header__logo {
+    width: 145px;
+    height: 47px;
+  }
+  .navigation {
+    gap: 10px;
+    font-size: 12px;
+  }
+}

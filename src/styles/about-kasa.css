@@ -1,0 +1,16 @@
+.about-kasa__container {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+@media all and (max-width: 480px) {
+  .about-kasa__container {
+    width: 100%;
+    gap: 20px;
+  }
+}

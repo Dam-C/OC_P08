@@ -1,0 +1,167 @@
+.home-item-section {
+  margin-top: 40px;
+}
+
+.home-item__head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.home-item__head--right {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+}
+
+.home-name,
+.home-loc,
+.home-owner-name {
+  color: #ff6060;
+}
+
+.home-name {
+  font-size: 36px;
+}
+
+.home-loc,
+.home-owner-name {
+  font-size: 18px;
+}
+
+.home-loc {
+  margin-bottom: 15px;
+}
+
+.home-owner-name {
+  text-align: right;
+}
+
+.home-owner__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.home-owner-photo {
+  border-radius: 100px;
+  width: 64px;
+  height: 64px;
+}
+
+.ratings-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #ff6060;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  min-width: 115px;
+  height: 25px;
+  padding: 0 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-item__collapses {
+  display: flex;
+  gap: 6%;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.home-item__collapse {
+  flex: 1;
+}
+
+@media all and (max-width: 480px) {
+  .home-item-section {
+    margin-top: 27px;
+  }
+
+  .home-item__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    gap: 16px;
+    margin-bottom: 26px;
+  }
+
+  .home-item__head--right {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home-name {
+    font-size: 18px;
+  }
+
+  .home-loc,
+  .home-owner-name {
+    font-size: 14px;
+  }
+
+  .home-loc {
+    margin-bottom: 10px;
+  }
+
+  .home-owner-name {
+    text-align: right;
+  }
+
+  .home-owner__profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .home-owner-photo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .ratings-area {
+    vertical-align: center;
+    width: 98px;
+    height: 18px;
+  }
+
+  .tag {
+    font-size: 10px;
+    border-radius: 5px;
+    min-width: 84px;
+    height: 18px;
+    padding: 0 10px 0 10px;
+  }
+
+  .home-item__collapses {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .home-item__collapse {
+    flex: 1;
+  }
+}
